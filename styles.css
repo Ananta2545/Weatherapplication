@@ -3,6 +3,10 @@
     padding: 0;
     /* background-color: rgb(228, 222, 215); */
 }
+body{
+    background: url('background.jpg') center;
+
+}
 .navbar-brand{
     background-color: cyan;
     border-radius: 10px;
@@ -15,11 +19,10 @@
     background-color: rgb(163, 146, 146);
 }
 .container-fluid{
-    background-color: black;
     border-radius: 15px;
 }
 .containerpy-3{
-    background-color: cyan;
+    background-color: #447a7a;
     margin: 34px;
     padding-right: 90px;
     padding-left: 90px;
@@ -35,4 +38,10 @@
 }
 div :hover{
     transition: cubic-bezier(0.23, 1, 0.320, 1);
+}
+.card-body:hover{
+    transform: scale(1.2);
+    background-color: grey;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
 }
