@@ -8,15 +8,20 @@ body{
 
 }
 .navbar-brand{
-    background-color: cyan;
+    background-color: #619898;
     border-radius: 10px;
     margin: 25px;
     padding: 20px;
     cursor: pointer;
+    font-size: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+#weather_app{
+    
 }
 #Weather_app:hover{
-    color: ghostwhite;
-    background-color: rgb(163, 146, 146);
+    /* color: ghostwhite; */
+    
 }
 .container-fluid{
     border-radius: 15px;
@@ -27,10 +32,11 @@ body{
     padding-right: 90px;
     padding-left: 90px;
 }
-#my-4{
+.my-4{
     text-align: center;
     margin-left: 34px;
-    color: black;
+    color: black; 
+    font-size: 50px; 
 }
 .fs-4{
     height: 23px;
@@ -40,8 +46,62 @@ div :hover{
     transition: cubic-bezier(0.23, 1, 0.320, 1);
 }
 .card-body:hover{
-    transform: scale(1.2);
-    background-color: grey;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
+    
 }
+#rounded-3{
+    height: 303px;
+    transition: transform 0.5s ease;
+    
+}
+#rounded-3:hover{
+    #rnd{
+        background-color: rgb(168, 162, 162);
+    }
+    transform: scale(1.1);
+}
+#rounded-4{
+    height: 303px;
+    transition: transform 0.5s ease;
+}
+#rounded-4:hover{
+    #rnd1{
+        background-color: rgb(168, 162, 162);
+    }
+    transform: scale(1.1);
+}
+#rounded-5{
+    height: 303px;
+    transition: transform 0.5s ease;
+}
+#rounded-5:hover{
+    #rnd2{
+        background-color: rgb(168, 162, 162);
+    }
+    transform: scale(1.1);
+}
+.wth{
+    text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #189286 0%,
+    #0f1e4e 29%,
+    #01072c 67%,
+    #447c7e 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 80px;
+}
+@keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
